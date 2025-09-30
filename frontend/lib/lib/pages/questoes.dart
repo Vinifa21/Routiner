@@ -117,18 +117,55 @@ class _QuestionsPageState extends State<QuestionsPage> {
               style: const TextStyle(fontSize: 16, color: Colors.blue),
             ),
 
-            SizedBox(height: 60,),
+            const SizedBox(height: 60),
+            
             Center(
               child: Text(
                 "Questão: ",
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 16,
                 ),  
-              )
+              ),
+            ),
+
+            const SizedBox(height: 60),
+
+            // --- BOTÕES A, B, C, D ---
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                ElevatedButton(
+                  onPressed: () {
+                    // ação do botão A
+                  },
+                  child: const Text('A'),
+                ),
+                const SizedBox(width: 20),
+                ElevatedButton(
+                  onPressed: () {
+                    // ação do botão B
+                  },
+                  child: const Text('B'),
+                ),
+                const SizedBox(width: 20),
+                ElevatedButton(
+                  onPressed: () {
+                    // ação do botão C
+                  },
+                  child: const Text('C'),
+                ),
+                const SizedBox(width: 20),
+                ElevatedButton(
+                  onPressed: () {
+                    // ação do botão D
+                  },
+                  child: const Text('D'),
+                ),
+              ],
             ),
           ],
         ),
-      )
+      ),
     );
   }
 }
