@@ -4,6 +4,8 @@ Projeto para o Hackathon da MagaluCloud
 
 ## **Descrição**
 
+O site está rodando por meio de um Virtual Machine do MagaluCloud, de nome routiner. O link para o site com a execução do projeto é: http://201.23.12.62/
+
 Aplicativo web destinado a estudantes universitários, com o objetivo principal de estimular o estudo de forma intuitiva e divertida.
 
 Sua funcionalidade principal é uma **trilha de exercícios** criada de acordo com a matéria que o aluno deseja estudar, seguindo um modelo similar ao **Duolingo**. Os exercícios serão organizados por nível de dificuldade e extraídos diretamente do livro de estudo selecionado pelo aluno (ex: *Cálculo I* do Stewart).
