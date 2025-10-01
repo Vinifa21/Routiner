@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:routiner/api/api_service.dart';
+
 
 // Lista de matérias definida globalmente
 const List<String> list = <String>['Cálculo','Geometria','Programação'];
